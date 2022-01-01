@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.7em;
+    margin: 16px 0;
+}
+
+.navbar a {
+    color: black;
+}
+
+.background {
+    background-image: url('../img/header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header {
+    padding: 13% 0;
+    width: 100%;
+    text-align: center;
+}
+
+.header h2 {
+    font-size: 2.4em;
+    background-color: white;
+}
+
+.header p {
+    font-size: 2em;
+    background-color: white;
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url('../img/tires.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 30px 0;
+    color: white;
+}
+
+.teammate {
+    width: 240px;
+}
+
+.teammate img {
+    height: auto;
+    width: 100%;
+}
+
+.teammate h3, .teammate p {
+    font-size: 1.7em;
+}
