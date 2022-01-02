@@ -12,6 +12,17 @@ h1 {
     font-size: 3em;
 }
 
+h2 {
+    text-align: center;
+    font-size: 1.9em;
+    margin: 20px 0;
+}
+
+p {
+    text-align: center;
+    font-size: 1.7em;
+}
+
 .navbar {
     display: flex;
     justify-content: space-around;
@@ -39,11 +50,34 @@ h1 {
 .header h2 {
     font-size: 2.4em;
     background-color: white;
+    margin: 0;
 }
 
 .header p {
     font-size: 2em;
     background-color: white;
+}
+
+.companies {
+    margin-top: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.company {
+    display: flex;
+    width: 400px;
+    align-items: center;
+    margin: 10px;
+}
+
+.company img {
+    width: 240px;
+    height: auto;
 }
 
 .team {
@@ -71,4 +105,12 @@ h1 {
 
 .teammate h3, .teammate p {
     font-size: 1.7em;
+}
+
+.contact {
+    
+}
+
+.copyright {
+    margin: 20px 0;
 }
